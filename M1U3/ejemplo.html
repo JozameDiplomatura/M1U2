@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer HTMl</title>
+</head>
+<body>
+    <h1>Ejemplo de Curriculum Ficticio.</h1>
+    <img src="hombre.jpg" alt="hombre">
+    
+    <h2>Datos personales</h2>
+    
+    <h3>Nombre y apellidos: José Manuel Azaña Contreras</h3>
+    <h3>Lugar y fecha de nacimiento: Arroyo de la Luz, 30 de abril de 1983</h3>
+    <h3>Estado civil: Soltero</h3>
+    <h3>Teléfono de contacto: 927 123 456</h3>
+    <h3>Teléfono móvil: 669 987 654</h3>
+    <h3>Carnet de conducir B y vehículo propio. </h3>
+       
+    <h2>¿Que series me Gustan?</h2>
+    <h3><a href="https://www.netflix.com/ar/title/80174608" target="_blank" >Love death + robots</a> </p></h3>
+    
+    <h3><a href="https://www.netflix.com/ar/title/70264888" target="_blank" >Black Mirror</a> </p></h3>
+    
+    <h3>Perfil</h3>
+
+    <P>Me gusta aprender cosas, adquirir experiencias. En un tiempo me gustó viajar o visitar partes de la ciudad que veía menos, en otro tiempo mi mujer y yo invitábamos a mucha gente a cenar y teníamos conversaciones de las buenas (de esas que hay política, religión y nada de fútbol o trivialidades). En la actualidad muchas noches Netflix es una opción, aunque también me gusta salir a cenar a algún buen lugar in a walking-distance (salir a cenar tomando el coche es una opción pero para mí le resta algo de comodidad al asunto). Leer también es algo que me gusta.</P>
+    <p>Pero si miro todas estas cosas involucran aprender algo, ver un aspecto nuevo de algo, ya sea conociendo algo nuevo o descubriendo nuevos puntos de vista. Eso sí casi siempre prefiero poca compañía pero muy buena, rehúyo las fiestas masivas atestadas de gente, música alta y conversaciones triviales entre gente que se conoce poco.</p>
+    <p>Leer, No leo en temporadas largas porque no suelo tener ratos largos de tranquilidad, pero en vacaciones me acabo varios libros.</p>  
+    
+    <h3>Si queres contactarme completa el siguiente formulario</h3>
+    <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Tu Nombre:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Tu Email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Mensaje:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
+
+</body>
+</html>

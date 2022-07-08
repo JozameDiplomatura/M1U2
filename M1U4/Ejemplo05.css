@@ -1,0 +1,34 @@
+h1 {
+    font-family: Verdana;
+    background-color: rgb(240, 242, 243);
+     text-align: center;
+    text-transform: uppercase; /*mayuscula*/
+}
+h2 {
+    font-style: italic;   
+    color: rgb(6, 114, 156);
+}
+h3 {
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: rgb(7, 116, 160);
+
+}
+#cajadatospersonales{
+    background-color: rgb(232, 238, 236);
+    width: 70%;
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-top: 5px solid rgb(7, 5, 3);
+}
+#Perfil{
+    background-color: rgb(232, 238, 236);
+    width: 70%;
+    width: 850px;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-top: 5px solid rgb(7, 5, 3);
+}
